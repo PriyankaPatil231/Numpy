@@ -1,0 +1,51 @@
+import numpy as np
+
+print("*** Statistical operation on 1 D array ***")
+
+print("----------max---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.max(x)
+print(y)
+
+print("----------min---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.min(x)
+print(y)
+
+print("----------sum---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.sum(x)
+print(y)
+
+print("----------mean---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.mean(x)
+print(y)
+
+print("----------median---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.median(x)
+print(y)
+
+print("----------product---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.prod(x)
+print(y)
+
+print("----------variance---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.var(x)
+print(y)
+
+print("----------standard deviation()---------------")
+
+x = np.array([10,12,16,14,9,8])
+y = np.std(x)
+print(y)
